@@ -193,7 +193,7 @@
         <!-- End: Header -->
 
         <!-- Start: Sidebar -->
-    <jsp:include page="Include/sidebar.jsp"></jsp:include>
+        <jsp:include page="Include/sidebar.jsp"></jsp:include>
 
         <!-- Start: Content-Wrapper -->
         <section id="content_wrapper">
