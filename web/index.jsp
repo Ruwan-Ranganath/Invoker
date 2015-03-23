@@ -4,7 +4,7 @@
 <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <title>AdminDesigns - A Responsive HTML5 Admin UI Framework</title>
+    <title>Project Invoker - A Responsive HTML5 Admin UI Framework</title>
     <meta name="keywords" content="HTML5 Bootstrap 3 Admin Template UI Theme" />
     <meta name="description" content="AdminDesigns - A Responsive HTML5 Admin UI Framework">
     <meta name="author" content="AdminDesigns">
@@ -70,7 +70,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">AdminDesigns.</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Project Invoker.</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
