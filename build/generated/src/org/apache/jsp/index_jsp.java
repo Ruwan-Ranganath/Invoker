@@ -47,10 +47,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<head>\r\n");
       out.write("    <!-- Meta, title, CSS, favicons, etc. -->\r\n");
       out.write("    <meta charset=\"utf-8\">\r\n");
-      out.write("    <title>AdminDesigns - A Responsive HTML5 Admin UI Framework</title>\r\n");
-      out.write("    <meta name=\"keywords\" content=\"HTML5 Bootstrap 3 Admin Template UI Theme\" />\r\n");
-      out.write("    <meta name=\"description\" content=\"AdminDesigns - A Responsive HTML5 Admin UI Framework\">\r\n");
-      out.write("    <meta name=\"author\" content=\"AdminDesigns\">\r\n");
+      out.write("    <title>Project Invoker </title>\r\n");
       out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
       out.write("\r\n");
       out.write("    <!-- Bootstrap Core CSS -->\r\n");
@@ -113,7 +110,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <span class=\"icon-bar\"></span>\r\n");
       out.write("                    <span class=\"icon-bar\"></span>\r\n");
       out.write("                </button>\r\n");
-      out.write("                <a class=\"navbar-brand page-scroll\" href=\"#page-top\">AdminDesigns.</a>\r\n");
+      out.write("                <a class=\"navbar-brand page-scroll\" href=\"#page-top\">Project Invoker.</a>\r\n");
       out.write("            </div>\r\n");
       out.write("\r\n");
       out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\r\n");
