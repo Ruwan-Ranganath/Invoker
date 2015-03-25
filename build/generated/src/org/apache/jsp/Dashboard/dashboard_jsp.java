@@ -47,10 +47,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<head>\r\n");
       out.write("    <!-- Meta, title, CSS, favicons, etc. -->\r\n");
       out.write("    <meta charset=\"utf-8\">\r\n");
-      out.write("    <title>AdminDesigns - SHARED ON GFXFree.Net</title>\r\n");
-      out.write("    <meta name=\"keywords\" content=\"HTML5 Bootstrap 3 Admin Template UI Theme\" />\r\n");
-      out.write("    <meta name=\"description\" content=\"AdminDesigns - SHARED ON GFXFree.Net\">\r\n");
-      out.write("    <meta name=\"author\" content=\"AdminDesigns\">\r\n");
+      out.write("    <title>Project Invoker</title>\r\n");
       out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
       out.write("\r\n");
       out.write("    <!-- Font CSS (Via CDN) -->\r\n");
@@ -238,7 +235,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <!-- End: Header -->\r\n");
       out.write("\r\n");
       out.write("        <!-- Start: Sidebar -->\r\n");
-      out.write("    ");
+      out.write("        ");
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "Include/sidebar.jsp", out, false);
       out.write("\r\n");
       out.write("\r\n");
