@@ -48,84 +48,11 @@
         <section id="content_wrapper">
 
             <!-- Start: Topbar-Dropdown -->
-            <div id="topbar-dropmenu">
-                <div class="topbar-menu row">
-                    <div class="col-xs-4 col-sm-2">
-                        <a href="#" class="metro-tile bg-success">
-                            <span class="metro-icon glyphicons glyphicons-inbox"></span>
-                            <p class="metro-title">Messages</p>
-                        </a>
-                    </div>
-                    <div class="col-xs-4 col-sm-2">
-                        <a href="#" class="metro-tile bg-info">
-                            <span class="metro-icon glyphicons glyphicons-parents"></span>
-                            <p class="metro-title">Users</p>
-                        </a>
-                    </div>
-                    <div class="col-xs-4 col-sm-2">
-                        <a href="#" class="metro-tile bg-alert">
-                            <span class="metro-icon glyphicons glyphicons-headset"></span>
-                            <p class="metro-title">Support</p>
-                        </a>
-                    </div>
-                    <div class="col-xs-4 col-sm-2">
-                        <a href="#" class="metro-tile bg-primary">
-                            <span class="metro-icon glyphicons glyphicons-cogwheels"></span>
-                            <p class="metro-title">Settings</p>
-                        </a>
-                    </div>
-                    <div class="col-xs-4 col-sm-2">
-                        <a href="#" class="metro-tile bg-warning">
-                            <span class="metro-icon glyphicons glyphicons-facetime_video"></span>
-                            <p class="metro-title">Videos</p>
-                        </a>
-                    </div>
-                    <div class="col-xs-4 col-sm-2">
-                        <a href="#" class="metro-tile bg-system">
-                            <span class="metro-icon glyphicons glyphicons-picture"></span>
-                            <p class="metro-title">Pictures</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <jsp:include page="Include/topbar-dropdown.jsp"></jsp:include>  
             <!-- End: Topbar-Dropdown -->
 
             <!-- Start: Topbar -->
-            <header id="topbar">
-                <div class="topbar-left">
-                    <ol class="breadcrumb">
-                        <li class="crumb-active">
-                            <a href="dashboard.html">Dashboard</a>
-                        </li>
-                        <li class="crumb-icon">
-                            <a href="dashboard.html">
-                                <span class="glyphicon glyphicon-home"></span>
-                            </a>
-                        </li>
-                        <li class="crumb-link">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="crumb-trail">Dashboard</li>
-                    </ol>
-                </div>
-                <div class="topbar-right">
-                    <div class="ib topbar-dropdown">
-                        <label for="topbar-multiple" class="control-label pr10 fs11 text-muted">Reporting Period</label>
-                        <select id="topbar-multiple" class="hidden" multiple="multiple">
-                            <optgroup label="Filter By:">
-                                <option value="1-1">Last 30 Days</option>
-                                <option value="1-2" selected="selected">Last 60 Days</option>
-                                <option value="1-3">Last Year</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                    <div class="ml15 ib va-m" id="toggle_sidemenu_r">
-                        <a href="#" class="pl5"> <i class="fa fa-sign-in fs22 text-primary"></i>
-                            <span class="badge badge-hero badge-danger">3</span>
-                        </a>
-                    </div>
-                </div>
-            </header>
+        <jsp:include page="Include/topbar-menu.jsp"></jsp:include>     
             <!-- End: Topbar -->
 
             <!-- Begin: Content -->
@@ -138,7 +65,7 @@
                             <div class="pn pl20 p5">
                                 <div class="icon-bg"> <i class="fa fa-comments-o"></i> </div>
                                 <h2 class="mt15 lh15"> <b>523</b> </h2>
-                                <h5 class="text-muted">Comments</h5>
+                                <h5 class="text-muted">My Projects</h5>
                             </div>
                         </div>
                     </div>
@@ -147,7 +74,7 @@
                             <div class="pn pl20 p5">
                                 <div class="icon-bg"> <i class="fa fa-twitter"></i> </div>
                                 <h2 class="mt15 lh15"> <b>348</b> </h2>
-                                <h5 class="text-muted">Tweets</h5>
+                                <h5 class="text-muted">Open Task</h5>
                             </div>
                         </div>
                     </div>
@@ -156,7 +83,7 @@
                             <div class="pn pl20 p5">
                                 <div class="icon-bg"> <i class="fa fa-bar-chart-o"></i> </div>
                                 <h2 class="mt15 lh15"> <b>267</b> </h2>
-                                <h5 class="text-muted">Reach</h5>
+                                <h5 class="text-muted">Support Tickets</h5>
                             </div>
                         </div>
                     </div>
@@ -165,7 +92,7 @@
                             <div class="pn pl20 p5">
                                 <div class="icon-bg"> <i class="fa fa-envelope"></i> </div>
                                 <h2 class="mt15 lh15"> <b>714</b> </h2>
-                                <h5 class="text-muted">Comments</h5>
+                                <h5 class="text-muted">Pending Bugs</h5>
                             </div>
                         </div>
                     </div>
