@@ -2,10 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Invoker/web/Dashboard/Include/topbar-menu.jsp</file>
             <file>file:/C:/Invoker/web/Dashboard/dashboard.jsp</file>
             <file>file:/C:/Invoker/web/Dashboard/Include/right-sidebar.jsp</file>
         </group>
+=======
+        <group/>
+>>>>>>> origin/master
     </open-files>
 </project-private>
