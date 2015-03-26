@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Invoker/web/index.jsp</file>
+            <file>file:/C:/Invoker/web/Dashboard/Include/topbar-menu.jsp</file>
             <file>file:/C:/Invoker/web/Dashboard/dashboard.jsp</file>
-            <file>file:/C:/Invoker/web/Dashboard/Include/sidebar.jsp</file>
-            <file>file:/C:/Invoker/web/Dashboard/Include/header.jsp</file>
+            <file>file:/C:/Invoker/web/Dashboard/Include/right-sidebar.jsp</file>
         </group>
     </open-files>
 </project-private>
