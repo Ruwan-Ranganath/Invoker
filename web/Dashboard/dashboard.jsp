@@ -113,12 +113,7 @@
                                 <div class="panel-body mnw700 of-a">
                                     <div class="row">
 
-                                        <!-- Chart Column -->
-                                        <div class="col-md-4 pln br-r mvn15">
-                                            <h5 class="ml5 mt20 ph10 pb5 br-b fw700">Visitors <small class="pull-right fw600">13,253 <span class="text-primary">(8,251 unique)</span> </small> </h5>
-                                            <div id="high-column2" style="width: 100%; height: 255px; margin: 0 auto"></div>
-                                        </div>
-
+               
                                         <!-- Multi Text Column -->
                                         <div class="col-md-4 br-r">
                                             <h5 class="mt5 mbn ph10 pb5 br-b fw700">Top Referrals <small class="pull-right fw700 text-primary">View Report </small> </h5>
