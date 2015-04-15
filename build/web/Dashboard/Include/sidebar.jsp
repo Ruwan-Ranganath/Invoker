@@ -378,108 +378,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a class="accordion-toggle" href="#">
-                                    <span class="glyphicons glyphicons-imac"></span> Basic
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="nav sub-nav">
-                                    <li>
-                                        <a href="pages_calendar.html"> Calendar </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_profile.html"> Profile </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_timeline.html"> Timeline Split </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_timeline-single.html"> Timeline Single </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_faq.html"> FAQ Page </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_messages.html"> Messages </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_messages(alt).html"> Messages Alt </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_gallery.html"> Gallery </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="accordion-toggle" href="#">
-                                    <span class="glyphicons glyphicons-usd"></span> Misc
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="nav sub-nav">
-                                    <li>
-                                        <a href="pages_invoice.html"> Printable Invoice </a>
-                                    </li>
-                                    <li>
-                                        <a href="pages_blank.html"> Blank </a>
-                                    </li>
-                                </ul>
-                            </li>
+
                         </ul>
                     </li>
-
-                    <!-- sidebar bullets -->
-                    <li class="sidebar-label pt20">Projects</li>
-                    <li class="sidebar-proj">
-                        <a href="#projectOne">
-                            <span class="fa fa-dot-circle-o text-primary"></span>
-                            <span class="sidebar-title">Website Redesign</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-proj">
-                        <a href="#projectTwo">
-                            <span class="fa fa-dot-circle-o text-info"></span>
-                            <span class="sidebar-title">Ecommerce Panel</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-proj">
-                        <a href="#projectTwo">
-                            <span class="fa fa-dot-circle-o text-danger"></span>
-                            <span class="sidebar-title">Adobe Mockup</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-proj">
-                        <a href="#projectThree">
-                            <span class="fa fa-dot-circle-o text-warning"></span>
-                            <span class="sidebar-title">SSD Upgrades</span>
-                        </a>
-                    </li>
-
-                    <!-- sidebar progress bars -->
-                    <li class="sidebar-label pt25 pb10">User Stats</li>
-                    <li class="sidebar-stat mb10">
-                        <a href="#projectOne" class="fs11">
-                            <span class="fa fa-inbox text-info"></span>
-                            <span class="sidebar-title text-muted">Email Storage</span>
-                            <span class="pull-right mr20 text-muted">35%</span>
-                            <div class="progress progress-bar-xs ml20 mr20">
-                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
-                                    <span class="sr-only">35% Complete</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="sidebar-stat mb10">
-                        <a href="#projectOne" class="fs11">
-                            <span class="fa fa-dropbox text-warning"></span>
-                            <span class="sidebar-title text-muted">Bandwidth</span>
-                            <span class="pull-right mr20 text-muted">58%</span>
-                            <div class="progress progress-bar-xs ml20 mr20">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 58%">
-                                    <span class="sr-only">58% Complete</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                   
+                   
                 </ul>
                 <div class="sidebar-toggle-mini">
                     <a href="#">
