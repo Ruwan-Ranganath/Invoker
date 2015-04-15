@@ -164,12 +164,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                <div class=\"panel-body mnw700 of-a\">\r\n");
       out.write("                                    <div class=\"row\">\r\n");
       out.write("\r\n");
-      out.write("                                        <!-- Chart Column -->\r\n");
-      out.write("                                        <div class=\"col-md-4 pln br-r mvn15\">\r\n");
-      out.write("                                            <h5 class=\"ml5 mt20 ph10 pb5 br-b fw700\">Visitors <small class=\"pull-right fw600\">13,253 <span class=\"text-primary\">(8,251 unique)</span> </small> </h5>\r\n");
-      out.write("                                            <div id=\"high-column2\" style=\"width: 100%; height: 255px; margin: 0 auto\"></div>\r\n");
-      out.write("                                        </div>\r\n");
-      out.write("\r\n");
+      out.write("               \r\n");
       out.write("                                        <!-- Multi Text Column -->\r\n");
       out.write("                                        <div class=\"col-md-4 br-r\">\r\n");
       out.write("                                            <h5 class=\"mt5 mbn ph10 pb5 br-b fw700\">Top Referrals <small class=\"pull-right fw700 text-primary\">View Report </small> </h5>\r\n");

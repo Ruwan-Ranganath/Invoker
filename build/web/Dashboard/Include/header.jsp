@@ -1,6 +1,6 @@
 <header class="navbar navbar-fixed-top bg-light">
             <div class="navbar-branding">
-                <a class="navbar-brand" href="dashboard.html"> <b>Admin</b>Designs
+                <a class="navbar-brand" href="dashboard.html"> <b>Invoker</b> Development
                 </a>
                 <span id="toggle_sidemenu_l" class="glyphicons glyphicons-show_lines"></span>
                 <ul class="nav navbar-nav pull-right hidden">
