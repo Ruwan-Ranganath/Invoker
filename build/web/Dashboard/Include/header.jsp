@@ -30,14 +30,7 @@
                         <span class="glyphicons glyphicons-settings fs14"></span>
                     </a>
                     <ul class="dropdown-menu" role="menu">
-                        <li>
-                            <a href="javascript:void(0);">
-                                <span class="fa fa-times-circle-o pr5 text-primary"></span> Reset LocalStorage </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);">
-                                <span class="fa fa-slideshare pr5 text-info"></span> Force Global Logout </a>
-                        </li>
+               
                         <li class="divider mv5"></li>
                         <li>
                             <a href="javascript:void(0);">
