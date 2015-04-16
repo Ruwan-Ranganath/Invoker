@@ -44,7 +44,7 @@
         <ul class="nav sidebar-menu">
             <li class="sidebar-label pt20">Menu</li>
             <li>
-                <a href="pages_calendar.html">
+                <a href="newproject.jsp">
                     <span class="fa fa-calendar"></span>
                     <span class="sidebar-title">Project List</span>
                 </a>
