@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="beans.User"%>
 <!DOCTYPE html>
 <html>
 
@@ -86,7 +88,8 @@
                                 </div>
                             </div>
                         </div>
-
+                        
+                        
                         <!-- end .form-header section -->
                         <form method="post" action="/" id="contact">
                             <div class="panel-body bg-light p30">
