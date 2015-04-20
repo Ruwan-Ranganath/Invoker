@@ -46,10 +46,81 @@
             <li>
                 <a href="newproject.jsp">
                     <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Add Project</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
                     <span class="sidebar-title">Project List</span>
                 </a>
             </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Add Members</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Bug Tracking</span>
+                </a>
+            </li>
+
+            <li class="sidebar-label pt20">Resource Attachments</li>
             
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Upload Videos</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Upload Images</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Upload other Documents</span>
+                </a>
+            </li>
+            
+            
+            
+            
+                        <li class="sidebar-label pt20">Clients Management</li>
+            
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Add Client</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">View Clients</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="newproject.jsp">
+                    <span class="fa fa-calendar"></span>
+                    <span class="sidebar-title">Revoke Access</span>
+                </a>
+            </li>
+            
+
         </ul>
         <div class="sidebar-toggle-mini">
             <a href="#">

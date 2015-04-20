@@ -101,8 +101,8 @@
             <div class="intro-text">
                 <div class="intro-lead-in hidden">This is a lead in statement!</div>
                 <div class="intro-heading">Our in house team creates <b>beautiful</b> designs to help your product succeed.</div>
-                <a href="#services" class="page-scroll btn btn-xl mr30 btn-primary">Learn More</a>
-                <a href="#contact" class="page-scroll btn btn-xl btn-wire">Contact Us</a>
+                <a href="Dashboard/pages_login.html" class="page-scroll btn btn-xl mr30 btn-primary">Login</a>
+                <a href="Dashboard/pages_register.html" class="page-scroll btn btn-xl btn-wire">Register Now!</a>
             </div>
         </div>
     </header>
