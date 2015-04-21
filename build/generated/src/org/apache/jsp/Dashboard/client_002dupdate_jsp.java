@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class new_005fclient_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class client_002dupdate_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -132,7 +132,7 @@ public final class new_005fclient_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("                                                        </div>\r\n");
       out.write("                                                        <!-- end .panel-heading section -->\r\n");
       out.write("\r\n");
-      out.write("                                                        <form name=\"frm\" action=\"Data/addclient.jsp\">\r\n");
+      out.write("                                                        <form name=\"frm\" action=\"Data/Client-update.jsp\">\r\n");
       out.write("                                                            <div class=\"panel-body p25 pb15\">\r\n");
       out.write("                                                                <div class=\"section row\">\r\n");
       out.write("                                                                    <div class=\"col-md-6\">\r\n");

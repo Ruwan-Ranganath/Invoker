@@ -1,10 +1,10 @@
 SMAP
-new_005fclient_jsp.java
+client_002dupdate_jsp.java
 JSP
 *S JSP
 *F
-+ 0 new_client.jsp
-Dashboard/new_client.jsp
++ 0 client-update.jsp
+Dashboard/client-update.jsp
 *L
 1,41:44
 42:85,3
