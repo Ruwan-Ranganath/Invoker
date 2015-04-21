@@ -1,0 +1,20 @@
+SMAP
+new_005fclient_jsp.java
+JSP
+*S JSP
+*F
++ 0 new_client.jsp
+Dashboard/new_client.jsp
+*L
+1,41:44
+42:85,3
+43,3:88
+46:91,3
+47,5:94
+52:99,3
+53,3:102
+56:105,3
+57,118:108
+175:226,3
+176,185:229
+*E

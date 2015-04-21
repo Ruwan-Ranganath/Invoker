@@ -31,9 +31,11 @@ public class RegisterController extends HttpServlet
                 out.println("<br>");
                 out.println("<br>");
                 out.println("<center>Great!!!</center>");
-                RequestDispatcher rd = request.getRequestDispatcher("login_form.jsp");
+                RequestDispatcher rd = request.getRequestDispatcher("pages_login.jsp");
                 rd.forward(request,response);
-            } finally {out.close();}
+            } finally {
+                
+                out.close();}
         }
            
         @Override

@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/GitHub/Invoker/web/Dashboard/dashboard.jsp</file>
-            <file>file:/F:/GitHub/Invoker/web/Dashboard/Include/sidebar.jsp</file>
-            <file>file:/F:/GitHub/Invoker/web/index.jsp</file>
+            <file>file:/F:/GitHub/Invoker/src/java/controllers/ProjectController.java</file>
+            <file>file:/F:/GitHub/Invoker/src/java/beans/projects.java</file>
+            <file>file:/F:/GitHub/Invoker/src/java/controllers/RegisterController.java</file>
+            <file>file:/F:/GitHub/Invoker/src/java/beans/User.java</file>
+            <file>file:/F:/GitHub/Invoker/src/java/controllers/LoginController.java</file>
         </group>
     </open-files>
 </project-private>

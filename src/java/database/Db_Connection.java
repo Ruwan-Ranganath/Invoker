@@ -12,7 +12,7 @@ public class Db_Connection
         {
             
             Class.forName("com.mysql.jdbc.Driver");
-            String techworld3g = "jdbc:mysql://localhost:3306/techworld3g?user=root";
+            String techworld3g = "jdbc:mysql://localhost:3306/invoker?user=root";
             Connection myConnection = DriverManager.getConnection(techworld3g);
           
             return myConnection;

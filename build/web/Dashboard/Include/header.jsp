@@ -1,3 +1,6 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="beans.User"%>
+
 <header class="navbar navbar-fixed-top bg-light">
             <div class="navbar-branding">
                 <a class="navbar-brand" href="dashboard.html"> <b>Invoker</b> Development
@@ -125,7 +128,20 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle fw600 p15" data-toggle="dropdown"> <img src="assets/img/avatars/1.jpg" alt="avatar" class="mw30 br64 mr15">
-                        <span>John.Smith</span>
+                        <span>                    <%
+                        HttpSession sessionUser = request.getSession(false);
+                        String us = (String) sessionUser.getAttribute("user");
+
+                        User user_of_techworld3g = new User();
+                        user_of_techworld3g.setUser(us);
+                        user_of_techworld3g.GetUser();
+
+                        out.print("Welcome ");
+                        out.print(user_of_techworld3g.getFirst_name());
+                        out.print(" ");
+                        out.print(user_of_techworld3g.getLast_name());
+                        out.print("!!!");
+                    %></span>
                         <span class="caret caret-tp hidden-xs"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-persist pn w250 bg-white" role="menu">

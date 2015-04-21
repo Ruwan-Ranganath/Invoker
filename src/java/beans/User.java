@@ -72,7 +72,7 @@ public class User
             Db_Connection dbconn=new Db_Connection();
             Connection myconnection= dbconn.Connection();
 
-            String sqlString="INSERT INTO users (first_name,last_name,username,password) VALUES ('"+first_name+"','"+last_name+"','"+user+"','"+pwd+"')";
+            String sqlString="INSERT INTO members_data (first_name,last_name,emailaddress,password) VALUES ('"+first_name+"','"+last_name+"','"+user+"','"+pwd+"')";
             
             Statement myStatement = myconnection.createStatement();
             
@@ -95,7 +95,7 @@ public class User
                 Db_Connection dbconn=new Db_Connection();
                 Connection myconnection= dbconn.Connection();
                 
-                PreparedStatement ps1 =myconnection.prepareStatement("select * from users where username=? and password=?");
+                PreparedStatement ps1 =myconnection.prepareStatement("select * from members_data where emailaddress=? and password=?");
 
                 ps1.setString(1, user);
                 ps1.setString(2, pwd);
