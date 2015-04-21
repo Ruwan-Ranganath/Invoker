@@ -68,7 +68,7 @@
                             <div class="panel bg-alert light of-h mb10">
                                 <div class="pn pl20 p5">
                                     <div class="icon-bg"> <i class="fa fa-comments-o"></i> </div>
-                                    <h2 class="mt15 lh15"> <b>523</b> </h2>
+                                    <h2 class="mt15 lh15"> <b>4</b> </h2>
                                     <h5 class="text-muted">My Projects</h5>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
                             <div class="panel bg-info light of-h mb10">
                                 <div class="pn pl20 p5">
                                     <div class="icon-bg"> <i class="fa fa-twitter"></i> </div>
-                                    <h2 class="mt15 lh15"> <b>348</b> </h2>
+                                    <h2 class="mt15 lh15"> <b>10</b> </h2>
                                     <h5 class="text-muted">Open Task</h5>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                             <div class="panel bg-danger light of-h mb10">
                                 <div class="pn pl20 p5">
                                     <div class="icon-bg"> <i class="fa fa-bar-chart-o"></i> </div>
-                                    <h2 class="mt15 lh15"> <b>267</b> </h2>
+                                    <h2 class="mt15 lh15"> <b>none</b> </h2>
                                     <h5 class="text-muted">Support Tickets</h5>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@
                             <div class="panel bg-warning light of-h mb10">
                                 <div class="pn pl20 p5">
                                     <div class="icon-bg"> <i class="fa fa-envelope"></i> </div>
-                                    <h2 class="mt15 lh15"> <b>714</b> </h2>
+                                    <h2 class="mt15 lh15"> <b>none</b> </h2>
                                     <h5 class="text-muted">Pending Bugs</h5>
                                 </div>
                             </div>
