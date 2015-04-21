@@ -112,13 +112,12 @@
                             <div class="col-md-12 admin-grid">
                                 <div class="panel sort-disable" id="p0">
                                     <div class="panel-heading">
-                                        <span class="panel-title">Data Panel Widget</span>
+                                        <span class="panel-title">System Details</span>
                                     </div>
                                     <div class="panel-body mnw700 of-a">
                                         <div class="row">
 
-                                            Currently Assigned Tasks 
-
+                                      Retriving data... 
                                         </div>
                                     </div>
                                 </div>

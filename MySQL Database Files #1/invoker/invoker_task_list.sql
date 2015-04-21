@@ -16,33 +16,29 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `projects`
+-- Table structure for table `task_list`
 --
 
-DROP TABLE IF EXISTS `projects`;
+DROP TABLE IF EXISTS `task_list`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `projects` (
-  `projectid` int(50) NOT NULL AUTO_INCREMENT,
-  `pro_client` varchar(50) COLLATE utf8_bin NOT NULL,
-  `pro_deadline` varchar(45) COLLATE utf8_bin NOT NULL,
-  `pro_desc` varchar(50) COLLATE utf8_bin NOT NULL,
-  `pro_url` varchar(50) COLLATE utf8_bin NOT NULL,
-  `pro_ftpname` varchar(50) COLLATE utf8_bin NOT NULL,
-  `pro_ftppass` varchar(50) COLLATE utf8_bin NOT NULL,
-  `pro_name` varchar(45) COLLATE utf8_bin DEFAULT NULL,
-  PRIMARY KEY (`projectid`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+CREATE TABLE `task_list` (
+  `taskid` int(11) NOT NULL,
+  `task_desc` varchar(45) COLLATE utf8_bin NOT NULL,
+  `task_status` int(11) NOT NULL,
+  `assign_user_id` int(11) DEFAULT NULL,
+  `task_listcol` varchar(45) COLLATE utf8_bin DEFAULT NULL,
+  PRIMARY KEY (`taskid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `projects`
+-- Dumping data for table `task_list`
 --
 
-LOCK TABLES `projects` WRITE;
-/*!40000 ALTER TABLE `projects` DISABLE KEYS */;
-INSERT INTO `projects` VALUES (1,'asd','asd','asdas','asd','asd','asd',NULL),(2,'rrr','rr','rr','r','rr','r',NULL),(3,'123','asd','das','asdas','asd','asdas',NULL),(4,'asd','asda','asda','sdf','das','dada','a'),(5,'BBB','sdf','fsd','sdf','sdf','sdf','AAAA');
-/*!40000 ALTER TABLE `projects` ENABLE KEYS */;
+LOCK TABLES `task_list` WRITE;
+/*!40000 ALTER TABLE `task_list` DISABLE KEYS */;
+/*!40000 ALTER TABLE `task_list` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -54,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-04-21 13:43:27
+-- Dump completed on 2015-04-21 13:43:28

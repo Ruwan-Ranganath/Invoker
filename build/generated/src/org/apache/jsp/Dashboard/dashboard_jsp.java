@@ -120,7 +120,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <div class=\"panel bg-alert light of-h mb10\">\r\n");
       out.write("                                <div class=\"pn pl20 p5\">\r\n");
       out.write("                                    <div class=\"icon-bg\"> <i class=\"fa fa-comments-o\"></i> </div>\r\n");
-      out.write("                                    <h2 class=\"mt15 lh15\"> <b>523</b> </h2>\r\n");
+      out.write("                                    <h2 class=\"mt15 lh15\"> <b>4</b> </h2>\r\n");
       out.write("                                    <h5 class=\"text-muted\">My Projects</h5>\r\n");
       out.write("                                </div>\r\n");
       out.write("                            </div>\r\n");
@@ -129,7 +129,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <div class=\"panel bg-info light of-h mb10\">\r\n");
       out.write("                                <div class=\"pn pl20 p5\">\r\n");
       out.write("                                    <div class=\"icon-bg\"> <i class=\"fa fa-twitter\"></i> </div>\r\n");
-      out.write("                                    <h2 class=\"mt15 lh15\"> <b>348</b> </h2>\r\n");
+      out.write("                                    <h2 class=\"mt15 lh15\"> <b>10</b> </h2>\r\n");
       out.write("                                    <h5 class=\"text-muted\">Open Task</h5>\r\n");
       out.write("                                </div>\r\n");
       out.write("                            </div>\r\n");
@@ -138,7 +138,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <div class=\"panel bg-danger light of-h mb10\">\r\n");
       out.write("                                <div class=\"pn pl20 p5\">\r\n");
       out.write("                                    <div class=\"icon-bg\"> <i class=\"fa fa-bar-chart-o\"></i> </div>\r\n");
-      out.write("                                    <h2 class=\"mt15 lh15\"> <b>267</b> </h2>\r\n");
+      out.write("                                    <h2 class=\"mt15 lh15\"> <b>none</b> </h2>\r\n");
       out.write("                                    <h5 class=\"text-muted\">Support Tickets</h5>\r\n");
       out.write("                                </div>\r\n");
       out.write("                            </div>\r\n");
@@ -147,7 +147,7 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <div class=\"panel bg-warning light of-h mb10\">\r\n");
       out.write("                                <div class=\"pn pl20 p5\">\r\n");
       out.write("                                    <div class=\"icon-bg\"> <i class=\"fa fa-envelope\"></i> </div>\r\n");
-      out.write("                                    <h2 class=\"mt15 lh15\"> <b>714</b> </h2>\r\n");
+      out.write("                                    <h2 class=\"mt15 lh15\"> <b>none</b> </h2>\r\n");
       out.write("                                    <h5 class=\"text-muted\">Pending Bugs</h5>\r\n");
       out.write("                                </div>\r\n");
       out.write("                            </div>\r\n");
@@ -164,13 +164,12 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <div class=\"col-md-12 admin-grid\">\r\n");
       out.write("                                <div class=\"panel sort-disable\" id=\"p0\">\r\n");
       out.write("                                    <div class=\"panel-heading\">\r\n");
-      out.write("                                        <span class=\"panel-title\">Data Panel Widget</span>\r\n");
+      out.write("                                        <span class=\"panel-title\">System Details</span>\r\n");
       out.write("                                    </div>\r\n");
       out.write("                                    <div class=\"panel-body mnw700 of-a\">\r\n");
       out.write("                                        <div class=\"row\">\r\n");
       out.write("\r\n");
-      out.write("                                            Currently Assigned Tasks \r\n");
-      out.write("\r\n");
+      out.write("                                      Retriving data... \r\n");
       out.write("                                        </div>\r\n");
       out.write("                                    </div>\r\n");
       out.write("                                </div>\r\n");

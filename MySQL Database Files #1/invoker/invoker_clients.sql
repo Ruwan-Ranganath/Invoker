@@ -26,9 +26,10 @@ CREATE TABLE `clients` (
   `clientid` int(50) NOT NULL AUTO_INCREMENT,
   `client_name` varchar(50) COLLATE utf8_bin NOT NULL,
   `client_address` varchar(50) COLLATE utf8_bin NOT NULL,
-  `client_phone` int(12) NOT NULL,
+  `client_phone` varchar(45) COLLATE utf8_bin NOT NULL,
+  `client_desc` varchar(45) COLLATE utf8_bin DEFAULT NULL,
   PRIMARY KEY (`clientid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,6 +38,7 @@ CREATE TABLE `clients` (
 
 LOCK TABLES `clients` WRITE;
 /*!40000 ALTER TABLE `clients` DISABLE KEYS */;
+INSERT INTO `clients` VALUES (1,'sdf','sdfsd','fsdsd','fsdfs');
 /*!40000 ALTER TABLE `clients` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-04-20 22:14:40
+-- Dump completed on 2015-04-21 13:43:27
